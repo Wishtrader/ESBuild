@@ -3,7 +3,7 @@ import './index.css';
 import './second.css';
 
 const App = () => {
-    const [state, setState] = useState(0)
+    const [state, setState] = useState<number>(0)
     return (
         <div>
          <h1>value = ${state}</h1>
